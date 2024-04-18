@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7f5; 
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #d2f4ea;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2b726a; 
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: #4a6866; 
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+select,
+textarea {
+    width: calc(100% - 22px); 
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #a1d4ca; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease; 
+    color: #4a6866;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px; 
+}
+
+input[type="submit"] {
+    background-color: #009688; 
+    color: #ffffff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #00796b; 
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2b726a; 
+}
+
+datalist {
+    display: none;
+}
